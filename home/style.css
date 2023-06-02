@@ -8,9 +8,20 @@
     --bgcolor: #1B1B1F;
     --branco: #ffffff;
     --preto: #000000;
+    --cinzaC: #D9D9D9;
+    --laranja: #CA6702;
+    --roxo: #6B70FB;
     --nunito: 'Nunito', sans-serif;
     --montserrat: 'Montserrat', sans-serif;
-    --laranja: #CA6702;
+}
+
+a{
+    text-decoration: none;
+    font-family: var(--nunito);
+}
+
+span{
+    font-family: var(--nunito);
 }
 
 /* CSS HEADER */
@@ -54,7 +65,7 @@ header a{
 
 .bg_main{
     width: 100%;
-    height: 700px;
+    height: 710px;
     background-image: url(../img/header/bg1.png);
     background-size: cover;
 }
@@ -131,6 +142,7 @@ main p{
 }
 
 .campo_pesquisa{
+    position: absolute;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -161,8 +173,186 @@ main p{
     font-family: var(--nunito);
 }
 
+.campo_pesquisa>input::placeholder{
+    font-family: var(--nunito);
+    font-size: 18px;
+}
+
+
 input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 } 
 /* retira a borda do input ao clicar nele */
+
+.recomendacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/bgrecomendacoes.png);
+    background-size: cover;
+}
+
+.recomendacoes h1{
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, #CF45FF 0%, #00A3FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.texto_recomendacoes p{
+    font-size: 20px;
+    font-family: var(--montserrat);
+    font-weight: 200;
+}
+
+.texto_recomendacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+    width: 25%;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 40px;
+    border: solid 4px var(--branco);
+    backdrop-filter: blur(5px);
+    margin-bottom: 50px;
+}
+
+.card>span{
+    margin-top: 20%;
+    font-family: var(--nunito);
+    font-size: 12px;
+}
+
+.card>img{
+    width: 20px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+
+.cards{
+    margin: 0 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.efeito_bg2{
+    height: 70px;
+    background: linear-gradient(180deg, #282838 25%, rgba(27, 27, 31, 0) 100%);
+}
+
+.comofunciona{
+    height: 800px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comofunciona h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.comofunciona p{
+    font-weight: 300;
+}
+
+.howcard{
+    text-align: center;
+    color: var(--preto);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--cinzaC);
+    padding: 30px;
+    border-radius: 60px;
+}
+
+/* AJUSTES BOTÕES CLIENTE OU DESENVOLVEDOR DO CARD */
+.howbotoes{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.botaohow{
+    margin-bottom: 5px;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-family: var(--montserrat);
+    font-weight: 500;
+    border: solid 3px var(--preto);
+    padding: 8px 20px;
+    border-radius: 40px;
+    background-color: #CA6702;
+    box-shadow: 5px 5px black;
+}
+
+.dev{
+    background-color: var(--roxo);
+}
+/* AJUSTES BOTÕES CLIENTE OU DESENVOLVEDOR DO CARD */
+
+.howlogin{
+    font-size: 15px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.howlogin a{
+    color: var(--preto);
+}
+
+.howcards{
+    margin: 60px 0;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.um>img{
+    filter: drop-shadow(-4px -4px 10px rgba(0 0 0 / 30%));
+}
+
+
+/* SEGUNDO CARD */
+
+.dois{
+    font-size: 15px;
+}
+
+/* TERCEIRO CARD */
+
+.tres>p:nth-child(3){
+    font-style: var(--montserrat);
+    font-weight: 800;
+    color: var(--roxo);
+}
+
