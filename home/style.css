@@ -22,6 +22,10 @@ a{
     font-family: var(--nunito);
 }
 
+span{
+    font-family: var(--nunito);
+}
+
 
 /* CSS HEADER */
 
@@ -111,7 +115,8 @@ main p{
     height: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 60px;
 }
 
 
@@ -409,10 +414,10 @@ input:focus {
     border-radius: 30%;
 }
 
-.forum_conhecimento{
+.divisao{
     width: 70%;
 }
-.divisaoforum{
+.posicionamento_divisao{
     display: flex;
     justify-content: center;
 }
@@ -428,15 +433,16 @@ input:focus {
 /* AREA CONHECIMENTO */
 
 .conhecimentodiv{
-    background-image: url(../img/conhecimento/studying\ 1.png);
-    background-image: url(../img/conhecimento/test\ 1.png);
+    background-image: url(../img/conhecimento/studying\ 1.png), url(../img/conhecimento/test\ 1.png);
+    background-position: bottom right, top left;
     background-repeat: no-repeat;
+    background-size: 25%, 20%;
 
 }
 
 .conhecimento{
-    backdrop-filter: blur(4px);
-    height: 1000px;
+    backdrop-filter: blur(2px);
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -456,44 +462,80 @@ input:focus {
     font-size: 20px;
 }
 
+.conhecimento>p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .conhecimento_links{
     height: 50%;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .botao_conhecimento{
     display: flex;
-    align-items: center;
-    padding: 0 80px;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
     height: 60px;
     color: var(--branco);
     text-transform: uppercase;
-    font-family: var(--nunito);
-    font-size: 15px;
+    font-weight: 800;
     background-color: var(--roxoF);
     box-shadow: 10px 10px var(--branco);
-    border-radius: 30%;  
+    border-radius: 30%; 
 }
 
-.conhecimento>div>a:nth-child(2){
+.suporte{
+    background-image: linear-gradient(180deg, var(--bgcolor) 0%, rgba(27, 27, 31, 0) 100%), url(../img/footer/foto-de-baixo-angulo-do-hipnotizante-ceu-estrelado\ 1.png);
+}
+
+.suporte_top{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.suporte_top h1{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.suporte_top span{
+    font-size: 20px;
+}
+
+.footer{
+    margin: 0 100px;
+    height: 150px;
+}
+
+.footer a{
+    color: var(--branco);
+    text-transform: uppercase;
+}
+
+.footer>div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
     padding: 0 50px;
 }
 
-/* IMG CONHECIMENTO */
-
-.conhecimento_imgs img{
-    position: relative;
-    width: 400px;
-
-}
-
-.conhecimento_imgs{
-    width: 100%;
+.footer>div:nth-child(2){
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.footer>div>a{
+    padding: 0 20px;
+}
 
+.footer>div>a>img{
+    width: 45px;
+}
