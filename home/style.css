@@ -283,7 +283,7 @@ input:focus {
 .howcard{
     text-align: center;
     color: var(--preto);
-    width: 25%;
+    width: 310px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -322,12 +322,6 @@ input:focus {
 }
 /* AJUSTES BOTÕES CLIENTE OU DESENVOLVEDOR DO CARD */
 
-.howlogin{
-    font-size: 15px;
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
-}
 
 .howlogin a{
     color: var(--preto);
