@@ -1,33 +1,36 @@
-<div align="center">
-  <img height="300" src="https://socialify.git.ci/tamigld/vsconnect-web/image?description=1&language=1&name=1&owner=1&pattern=Solid&theme=Dark"  />
-</div>
+<br/>
+<p align="center">
+  <a href="https://github.com/tamigld/vsconnect-web">
+    <img src="https://raw.githubusercontent.com/tamigld/vsconnect-web/main/img/header/logoimg.png" alt="Logo" width="80" height="80">
+  </a>
 
-###
+  <h3 align="center">VSConnect - Aplicação WEB</h3>
 
-<h1 align="center">Aplicação - VSConnect</h1>
+  <p align="center">
+    Projeto criado inicialmente no SENAI Informática. Estou utilizando nossa prática no Figma para praticar HTML e CSS, juntamente com responsividade.
+    <br/>
+    <br/>
+  </p>
+</p>
 
-###
 
-<h3 align="left">👩‍💻  Sobre</h3>
 
-###
+## About The Project
 
-<p align="left">O objetivo do projeto é construir uma plataforma web integrada que<br>facilita a interação entre cliente-desenvolvedor, tornando intuitiva a<br>contratação para serviços rápidos e de desenvolvedores freelancer,<br>além de gerar empregabilidade.</p>
+![Screen Shot](https://raw.githubusercontent.com/tamigld/vsconnect-web/main/img/header/homevsc.png)
 
-###
+A empresa se chama VSConnect, foi criada em 2015 por Vitória
+Sanchez, tem atuação no ramo de empregabilidade de
+desenvolvedores. A sua ideia de produto é uma plataforma em que
+facilita o contato e contratação de desenvolvedores para projetos
+rápidos ou freelance, consequentemente, aumentando a
+empregabilidade e tornando os desenvolvedores brasileiros acessíveis
+para clientes de todo o mundo.
 
-<h3 align="left">🛠 Language and tools</h3>
+O objetivo do projeto é construir uma plataforma web integrada que
+facilita a interação entre cliente-desenvolvedor.
 
-###
+## Built With
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="40" alt="photoshop logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-</div>
+Design desenvolvido inicialmente no Figma e posteriormente com HTML e CSS.
 
-###
