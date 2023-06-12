@@ -15,7 +15,7 @@
 
 
 
-## About The Project
+## 📄 Sobre o projeto:
 
 ![Screen Shot](https://raw.githubusercontent.com/tamigld/vsconnect-web/main/img/header/homevsc.png)
 
@@ -30,7 +30,7 @@ para clientes de todo o mundo.
 O objetivo do projeto é construir uma plataforma web integrada que
 facilita a interação entre cliente-desenvolvedor.
 
-## Built With
+## ⌨️ Construído com:
 
 Design desenvolvido inicialmente no Figma e posteriormente com HTML e CSS.
 
